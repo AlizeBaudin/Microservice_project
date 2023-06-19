@@ -1,0 +1,28 @@
+[{
+   titre: 'Découverte de MongoDB', 
+   description: 'Installation et découverte de la base de données MongoDB',
+   par: 'Projets DIY',
+   nbH : 1, 
+   url: 'https://www.projetsdiy.fr',
+   tags: ['mongodb', 'document', 'NoSQL']
+ },
+ {
+   titre: 'MongoDB Overview', 
+   description: 'MongoDB is no sql database',
+   par: 'tutorials point',
+   url: 'http://www.tutorialspoint.com',
+   tags: ['mongodb', 'document', 'NoSQL'],
+   nbH : 2,
+   likes: 100,
+   comments: [{ user:'user1',
+                message: 'My first comment',
+                dateCreated: new Date(),
+                like: 0}]
+},
+{
+   titre: 'TP Redis', 
+   description: 'Découverte de la base de données NoSQL Redis',
+   par: {nom:"Manouvrier", prenom:"Maude"},
+   tags: ['redis', 'key-value', 'NoSQL']
+}
+]
